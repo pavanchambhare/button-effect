@@ -1,0 +1,66 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body{
+    /* Created with https://www.css-gradient.com */
+background: #DABBCF;
+background: -webkit-linear-gradient(bottom left, #DABBCF, #81AAE6);
+background: -moz-linear-gradient(bottom left, #DABBCF, #81AAE6);
+background: linear-gradient(to top right, #DABBCF, #81AAE6);
+background-repeat: no-repeat;
+height: 100vh;
+width: 100%;
+}
+nav{
+    overflow: hidden;
+    background-color: white;
+    height: 10vh;
+    width: 100%;
+    position: absolute;
+}
+ul{
+    top: 0%;
+    justify-content: space-between;
+    text-align: center;
+    right: 10%;
+    position: absolute;
+    margin: 1%;
+}
+nav ul a{
+        color: rgb(0, 0, 0);
+        padding: 1rem 2rem;
+        text-decoration: none;
+        display: inline-block;
+        transition: all 0.3s;
+        font-size: 18px;
+        border-radius: 10rem;
+        background-color: none;
+        border: 2px solid black;
+    }
+    nav ul a:hover {
+        color: rgb(0, 0, 0);
+        border-radius: 10rem;
+        border: none;
+        font-size: 18px;
+        padding: 1rem 2rem;
+        background-color: none;
+        transform: scale(1.05);
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+            rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    }
+    .logo{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #81AAE6;
+        font-size: 30px;
+        font-weight: 600;
+        margin: 1%;
+
+    }
+    span{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: brown;
+        font-size: 29px;
+        margin: 0%;
+    }
